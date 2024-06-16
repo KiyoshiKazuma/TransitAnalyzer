@@ -21,18 +21,16 @@ class staion:
 
 class stations:
     station_list :list[staion]
-    num : int
 
     def __init__(self):
         self.station_list=[] 
-        self.num=0
 
-    def append(station_tmp):
+    def append(self,station_tmp):
         self.station_list.append(station_tmp)
 
     def print_all(self):
-        for staion in self.station_list:
-            staion.print()            
+        for staion_tmp in self.station_list:
+            staion_tmp.print()            
                     
 
 driver = webdriver.Chrome()
